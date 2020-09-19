@@ -16,15 +16,10 @@ header{
     margin: .01rem;
     padding: .01rem;
 }
-.button{
-    border: none;
-    margin: .01rem;
-    padding: .01rem;
-}
+
 
 .title{
     flex-grow: 7;
-    text-align: center;
     font-family: "Lucida Console", Courier, monospace;
     border: none;
     margin: .01rem .01rem .01rem 10%;
@@ -96,16 +91,25 @@ td {
 }
 
 /* --------- Botões ------------ */
-button{
+.button{
     background-color: silver;
+    border-radius: 0.2rem;
     border: none;
-    padding: 5px 5px;
+    height: 1.5rem;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border: none;
+    margin: .01rem;
 }
 
+.textbutton{
+    margin: 0.2rem;
+    color: black;
+    border: none;
+}
 
 .TelaInicial{
     
