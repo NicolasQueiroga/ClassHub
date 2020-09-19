@@ -9,7 +9,7 @@ header{
     display: flex;
     flex-direction: row;
     margin: .5rem;
-    border-bottom: 0.12rem solid gray;
+    border-bottom: .12rem solid gray;
 }
 .menu{
     border: none;
@@ -191,6 +191,9 @@ td {
 .box1, .box2, .box3, .box4, .box5, .box6 {
     margin-top: 2%;
     margin-bottom: 5%;
+<<<<<<< HEAD
+}
+=======
 }
 
 /* ----- Duvidas ----- */
@@ -226,3 +229,4 @@ td {
     border-color: rgb(29, 26, 22);
 }
 
+>>>>>>> 9ed87a9ef1bd23c58f7bdab5229b645b442035fe
