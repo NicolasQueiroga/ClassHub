@@ -9,7 +9,7 @@ header{
     display: flex;
     flex-direction: row;
     margin: .5rem;
-    border-bottom: 0.12rem solid gray;
+    border-bottom: .12rem solid gray;
 }
 .menu{
     border: none;
