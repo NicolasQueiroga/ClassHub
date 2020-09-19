@@ -76,10 +76,9 @@ td {
 }
 
 .tasks {
-    margin-left: 5rem;
+    margin-left: 5%;
     border-left-width: 3px;
     padding: 8px 12px;
-    margin-left: 10%;
     margin-top: 5%;
     border-left-style: solid;
     font-size: 14px;
@@ -132,6 +131,7 @@ td {
     margin: 2%;
     padding: 2%;
     text-align: center;
+    font-weight: bold;
 }
 
 .dia {
@@ -152,16 +152,32 @@ td {
 .text {
     margin-top: 2rem;
     text-align: center;
-    font-weight: bold;
 }
 
 .arquivos {
-    margin-left: 5rem;
+    margin-left: 5%;
     border-left-width: 3px;
     padding: 8px 12px;
-    margin-left: 10%;
     margin-top: 5%;
     border-left-style: solid;
     font-size: 14px;
     position: relative;
 }
+
+/* -------- Avisos -------- */
+
+.boxAvisos {
+    margin: 2%;
+}
+
+.aviso1, .aviso2, .aviso3 {
+    margin-left: 5%;
+    border-left-width: 3px;
+    padding: 8px 12px;
+    margin-top: 5%;
+    border-left-style: solid;
+    font-size: 14px;
+    position: relative;
+}
+
+
