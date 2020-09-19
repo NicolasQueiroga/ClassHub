@@ -6,7 +6,9 @@ html, body {
     overflow:auto;
 }
 
-/* --------- Header ------------ */
+
+
+/* ============ Header ============ */
 header{
     display: flex;
     flex-direction: row;
@@ -20,6 +22,8 @@ header{
 }
 
 
+
+/* ============ Títulos ============ */
 .title{
     border: none;
     margin-left: 10%;
@@ -28,8 +32,46 @@ header{
     font-weight:bold;
 }
 
+.title2, .subtitle {
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    font-weight: bold;
+}
+.title2{
+    font-size: 2rem;
+}
 
-/* --------- hyperlinks ------------ */
+.ultitle{
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.title3{
+    font-size:1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title4{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* ============ texto ============ */
+pbold{
+    font-weight: bold;
+}
+
+.right{
+    text-align: right;
+}
+
+
+
+/* ============ hyperlinks ============ */
 a{
     color: black;
     text-emphasis: none;
@@ -38,7 +80,9 @@ a{
     font-weight: bold;
 }
 
-/* --------- Listas ------------ */
+
+
+/* ============ Listas ============ */
 ul{
     display: flex;
     flex-direction: column;
@@ -48,9 +92,72 @@ ul{
 
 li{
     width: 100%;
+    margin-top: .5rem;
 }
 
-/* --------- Calendario ------------ */
+.listaBorda {
+    margin-left: 5%;
+    border-left-width: 0.12rem;
+    border-color: gray;
+    padding: 8px 12px;
+    margin-top: 5%;
+    border-left-style: solid;
+    font-size: 14px;
+    position: relative;
+}
+
+.arquivos{
+    color: rgb(35, 31, 55);
+    text-decoration: underline;
+    
+}
+
+
+
+/* ============ Botões ============ */
+.button{
+    background-color: silver;
+    border-radius: 0.2rem;
+    border: none;
+    height: 1.5rem;
+    padding: 0.3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    margin: .01rem;
+}
+
+.textbutton{
+    margin: 0.2rem;
+    color: black;
+    border: none;
+}
+
+.escolhas,.telaInicial{
+    margin:0.3rem;
+    font-size: 1.5rem;
+    width: 98%;
+}
+
+.adicionar{
+    margin-left: 75%;
+}
+
+.menuAdicionar{
+    color: gray;
+    background-color: none;
+    text-decoration: underline;
+}
+
+.buttonDescricao{
+    color: gray;
+    background-color: none;
+    text-decoration: underline;
+}
+
+
+/* ============ Calendario ============ */
 table {
     border-collapse: collapse;
     border-spacing: 0 15px;
@@ -87,62 +194,23 @@ td {
 
 .tasks {
     margin-left: 5%;
-    border-left-width: 3px;
-    padding: 8px 12px;
+    border-color: gray;
+    border-left-width: .2rem;
+    padding: .5rem .8rem;
     margin-top: 5%;
     border-left-style: solid;
-    font-size: 14px;
     position: relative;
 }
 
-.item1, .item2, .item3, .add {
+.item1, .item2, .item3{
     padding: 2%;
 }
 
-/* --------- Botões ------------ */
-.button{
-    background-color: silver;
-    border-radius: 0.2rem;
-    border: none;
-    height: 1.5rem;
-    padding: 0.3rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border: none;
-    margin: .01rem;
-}
 
-.textbutton{
-    margin: 0.2rem;
-    color: black;
-    border: none;
-}
 
-.TelaInicial{
-    
-}
-
-.escolhas{
-    margin:0.3rem;
-    font-size: 1.5rem;
-    width: 98%;
-}
-
-.rodape {
-    padding-left: 1.3%;
-}
-
-/* ---------- Descricao ----------- */
+/* ============ Descrição ============ */
 .boxDescricao {
     margin: 2%;
-}
-
-.titulo, .subtitle {
-    margin: 2%;
-    padding: 2%;
-    text-align: center;
-    font-weight: bold;
 }
 
 .dia {
@@ -160,22 +228,9 @@ td {
     border-color: black;
 }
 
-.text {
-    margin-top: 2rem;
-    text-align: center;
-}
 
-.arquivos {
-    margin-left: 5%;
-    border-left-width: 3px;
-    padding: 8px 12px;
-    margin-top: 5%;
-    border-left-style: solid;
-    font-size: 14px;
-    position: relative;
-}
 
-/* -------- Avisos -------- */
+/* ============ Avisos ============ */
 
 .boxAvisos {
     margin: 2%;
@@ -183,15 +238,17 @@ td {
 
 .aviso1, .aviso2, .aviso3 {
     margin-left: 5%;
-    border-left-width: 3px;
-    padding: 8px 12px;
+    border-left-width: 0.2rem;
+    padding: .5rem .8rem;
     margin-top: 5%;
     border-left-style: solid;
-    font-size: 14px;
+    border-color: gray;
     position: relative;
 }
 
-/* ----- Add Tarefa - Add Aviso - Sua duvida -----*/
+
+
+/* ============ Add Tarefa - Add Aviso - Sua duvida ============ */
 
 
 .boxAddTarefa, .boxAddAviso, .boxEscrevaDuvida {
@@ -204,49 +261,53 @@ td {
     margin-bottom: 5%;
 }
 
-/* ----- Duvidas -Respostas ----- */
 
-.boxDuvidas, .boxRespostas {
-    margin: 10%;
-}
 
-.nome, .duvida {
-    text-align: center;
-    padding: 5%;
-    border: 1rem black;
-}
+/* ============ Dúvidas - Respostas ============ */
+
 
 .nome {
+    text-align: left;
+    padding: 5%;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
 .duvida{
+    text-align: center;
+    padding: 5%;
+    border: 1rem black;
     text-align: justify;
-    border-width: .21rem;
-    border-style: dashed;
-    border-color: rgb(35, 31, 55);
+    border-width: .15rem;
+    border-style: solid;
+    border-color: lightgray;
 }
 
 .writeResposta{
-    margin-top: 5%;
-    margin-right: 55%;
-    margin-bottom: 7%;
-    padding: 2%;
-    border-width: .15rem;
-    border-style: solid;
-    border-color: rgb(29, 26, 22);
+    flex-direction: row;
+}
+
+.acoes{
+    color: lightslategrey;
+    text-decoration: underline;
 }
 
 .respostas {
-    margin: 5% 0 2% 0;
+    margin: 1rem 2rem 2rem 2rem;
 }
 
 .resposta {
     text-align: justify;
     padding: 5%;
-    border-width: .21rem;
-    border-style: dashed;
-    border-color: rgb(35, 31, 55);
+    border-left-width: .15rem;
+    border-style: solid;
+    border-color: gray;
+    margin-bottom: 2rem;
+}
+
+.like{
+    color: lightslategrey;
+    text-decoration: underline;
 }
 
 #h5Resposta {
@@ -254,20 +315,26 @@ td {
     font-weight: bold;
 }
 
-.like {
-    margin: 2% 0 5% 0;
+
+
+/* ============ Footer ============ */
+footer{
+    text-align: right;
 }
 
-/* ----- Add Tarefa - Add Aviso - Sua duvida -----*/
+.colaboradores{
+    color: lightslategrey;
+    text-decoration: underline;
+}
 
-
-.boxAddTarefa, .boxAddAviso, .boxEscrevaDuvida {
-    margin:10%;
+.addHub{
+    width: fit-content;
+    background-color: silver;
+    border-radius: 2rem;
+    border: none;
     text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 75%;
+    text-decoration: none;
 }
-
-.box1, .box2, .box3, .box4, .box5, .box6 {
-    margin-top: 2%;
-    margin-bottom: 5%;
-}
-
