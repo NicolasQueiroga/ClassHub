@@ -4,6 +4,33 @@ html, body {
     font-family: Montserrat, "sans-serif";
 }
 
+header{
+    display: flex;
+    flex-direction: row;
+    margin: .5rem;
+    border-bottom: 0.12rem solid gray;
+}
+.menu{
+    border: white;
+    margin: .01rem;
+    padding: .01rem;
+}
+.button{
+    border: white;
+    margin: .01rem;
+    padding: .01rem;
+}
+
+.title{
+    flex-grow: 7;
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+    border: white;
+    margin: .01rem .01rem .01rem 10%;
+    padding: .01rem;
+    font-size: 300%;
+    font-weight:bold;
+}
 
 table {
     border-collapse: collapse;
@@ -27,10 +54,9 @@ td {
     padding: 5px;
 }
 
-.mes {
-    text-align: center;
-    padding: 2%;
-    font-weight: bold;
+h2 {
+    color: #4287f5;
+    sp
 }
 
 .avisos {
