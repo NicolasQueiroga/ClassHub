@@ -37,9 +37,13 @@ header{
 ul{
     display: flex;
     flex-direction: column;
+    height:100%;
     padding: 0.5%;
 }
 
+li{
+    padding: 0.5%;
+}
 
 /* --------- Tabela ------------ */
 table {
@@ -80,7 +84,7 @@ button{
 }
 
 .escolhas{
-
+    height: 100%;
 }
 
 .adicionar{
