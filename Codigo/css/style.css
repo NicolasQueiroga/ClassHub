@@ -45,7 +45,7 @@ li{
     padding: 0.5%;
 }
 
-/* --------- Tabela ------------ */
+/* --------- Calendario ------------ */
 table {
     border-collapse: collapse;
     border-spacing: 0 15px;
@@ -68,35 +68,6 @@ td {
     padding: 5px;
 }
 
-/* --------- Botões ------------ */
-button{
-    background-color: silver;
-    border: none;
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-.TelaInicial{
-    
-}
-
-.escolhas{
-    height: 100%;
-}
-
-.adicionar{
-
-}
-
-
-h2 {
-    color: #4287f5;
-    sp
-}
-
 .avisos {
     padding: 15%;
     font-size: small;
@@ -113,6 +84,29 @@ h2 {
     position: relative;
 }
 
-.a, .b, .c, .add {
+.item1, .item2, .item3, .add {
     padding: 2%;
 }
+
+/* --------- Botões ------------ */
+button{
+    background-color: silver;
+    border: none;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.TelaInicial{
+    
+}
+
+.escolhas{
+    height: 100%;
+}
+
+
+
