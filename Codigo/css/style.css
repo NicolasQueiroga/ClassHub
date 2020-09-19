@@ -4,6 +4,7 @@ html, body {
     font-family: Montserrat, "sans-serif";
 }
 
+/* --------- Header ------------ */
 header{
     display: flex;
     flex-direction: row;
@@ -11,12 +12,12 @@ header{
     border-bottom: 0.12rem solid gray;
 }
 .menu{
-    border: white;
+    border: none;
     margin: .01rem;
     padding: .01rem;
 }
 .button{
-    border: white;
+    border: none;
     margin: .01rem;
     padding: .01rem;
 }
@@ -25,13 +26,22 @@ header{
     flex-grow: 7;
     text-align: center;
     font-family: "Lucida Console", Courier, monospace;
-    border: white;
+    border: none;
     margin: .01rem .01rem .01rem 10%;
     padding: .01rem;
     font-size: 300%;
     font-weight:bold;
 }
 
+/* --------- Listas ------------ */
+ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+}
+
+
+/* --------- Tabela ------------ */
 table {
     border-collapse: collapse;
     border-spacing: 0 15px;
@@ -53,6 +63,30 @@ td {
     font-weight: bold;
     padding: 5px;
 }
+
+/* --------- Botões ------------ */
+button{
+    background-color: silver;
+    border: none;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.TelaInicial{
+    
+}
+
+.escolhas{
+
+}
+
+.adicionar{
+
+}
+
 
 h2 {
     color: #4287f5;
