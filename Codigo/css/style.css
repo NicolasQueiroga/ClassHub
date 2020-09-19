@@ -19,12 +19,11 @@ header{
 
 
 .title{
-    flex-grow: 7;
     font-family: "Lucida Console", Courier, monospace;
     border: none;
-    margin: .01rem .01rem .01rem 10%;
+    margin-left: 10%;
     padding: .01rem;
-    font-size: 300%;
+    font-size: 3rem;
     font-weight:bold;
 }
 
@@ -127,7 +126,7 @@ td {
     margin: 2%;
 }
 
-.title, .subtitle {
+.title2, .subtitle {
     margin: 2%;
     padding: 2%;
     text-align: center;
@@ -191,9 +190,6 @@ td {
 .box1, .box2, .box3, .box4, .box5, .box6 {
     margin-top: 2%;
     margin-bottom: 5%;
-<<<<<<< HEAD
-}
-=======
 }
 
 /* ----- Duvidas ----- */
@@ -229,4 +225,3 @@ td {
     border-color: rgb(29, 26, 22);
 }
 
->>>>>>> 9ed87a9ef1bd23c58f7bdab5229b645b442035fe
