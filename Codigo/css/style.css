@@ -1,34 +1,54 @@
 html, body {
     height: 100%;
     width: 100%;
+    font-family: Montserrat, "sans-serif";
 }
+
 
 table {
     border-collapse: collapse;
     border-spacing: 0 15px;
+    margin: 5%;
   }
   
 th {
-    color: rgb(94, 45, 94);
+    color: rgba(55, 43, 55, 0.604);
     height: 10px;
+    padding: 1%;
 }
 
 td {
     width: 150rem;
     height: 4rem;
     text-align: center;
-    border: 1px solid rgba(40, 208, 220, 0.761);
+    border: 1px solid rgba(128, 128, 128, 0.597);
+    color: rgba(56, 46, 56, 0.885);
+    font-weight: bold;
     padding: 5px;
 }
 
-h2 {
-    color: #4287f5;
-}
-
-.days {
-
+.mes {
+    text-align: center;
+    padding: 2%;
+    font-weight: bold;
 }
 
 .avisos {
+    padding: 15%;
+    font-size: small;
+    text-align: center;;
+    color: black;
+}
 
+.tasks {
+    border-left-width: 3px;
+    padding: 8px 12px;
+    margin: 10px;
+    border-left-style: solid;
+    font-size: 14px;
+    position: relative;
+}
+
+.a, .b, .c, .add {
+    padding: 2%;
 }
