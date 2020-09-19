@@ -192,9 +192,9 @@ td {
     margin-bottom: 5%;
 }
 
-/* ----- Duvidas ----- */
+/* ----- Duvidas -Respostas ----- */
 
-.boxDuvidas {
+.boxDuvidas, .boxRespostas {
     margin: 10%;
 }
 
@@ -208,14 +208,14 @@ td {
     font-weight: bold;
 }
 
-.duvida {
+.duvida{
     text-align: justify;
-    border-width: .31rem;
+    border-width: .21rem;
     border-style: dashed;
     border-color: rgb(35, 31, 55);
 }
 
-.resposta{
+.writeResposta{
     margin-top: 5%;
     margin-right: 55%;
     margin-bottom: 7%;
@@ -223,6 +223,27 @@ td {
     border-width: .15rem;
     border-style: solid;
     border-color: rgb(29, 26, 22);
+}
+
+.respostas {
+    margin: 5% 0 2% 0;
+}
+
+.resposta {
+    text-align: justify;
+    padding: 5%;
+    border-width: .21rem;
+    border-style: dashed;
+    border-color: rgb(35, 31, 55);
+}
+
+#h5Resposta {
+    padding: 5%;
+    font-weight: bold;
+}
+
+.like {
+    margin: 2% 0 5% 0;
 }
 
 /* ----- Add Tarefa - Add Aviso - Sua duvida -----*/
