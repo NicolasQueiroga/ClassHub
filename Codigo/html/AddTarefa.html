@@ -13,33 +13,34 @@
             <div class='button'><a href="Calendario.html"><button>Voltar</button></a></div>
             <div class='title'>Nova Tarefa</div>
         </header>
-        <main>
-            <label for="TituloTarefa">Título:</label>
+        <main class='boxAddTarefa'>
+            <div class='box1'>
+                <label for="TituloTarefa">Título:</label>
+                <br>
+                <input type="text" id="TituloTarefa">
+            </div>
             <br>
-            <input type="text" id="TituloTarefa">
-
-            <br>
-            
-            <label for="SubTituloTarefa">Subtítulo:</label>
-            <br>
-            <input type="text" id="SubTituloTarefa">
-
-            <h5>Data de entrega:<button>dd</button><button>mm</button></h5>
-
-            <label for="Descricao">Descrição da tarefa:</label>
-            <br>
-            <input type="text" id="Descricao">
-
-            <h4>Arquivo:<button>Upload</button></h4>
-
-            <h4>
-                <label for="Link">Link de entrega:</label>
-                <input type="text" id="Link">
-            </h4>
-
-            <h3>
+            <div class='box2'>
+                <label for="SubTituloTarefa">Subtítulo:</label>
+                <br>
+                <input type="text" id="SubTituloTarefa">
+            </div>
+            <div class='box3'><h5>Data de entrega:<button>dd</button><button>mm</button></h5></div>
+            <div class='box4'>
+                <label for="Descricao">Descrição da tarefa:</label>
+                <br>
+                <input type="text" id="Descricao">
+            </div>
+            <div class='box5'><h4>Arquivo:<button>Upload</button></h4></div>
+            <div class='box6'>
+                <h4>
+                    <label for="Link">Link de entrega:</label>
+                    <input type="text" id="Link">
+                </h4>
+            </div>
+            <footer>
                 <a href="Calendario.html"><button>Postar!</button></a>
-            </h3>
+            </footer>
         </main>
     </body>
 </html>

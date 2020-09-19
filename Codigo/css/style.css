@@ -180,4 +180,15 @@ td {
     position: relative;
 }
 
+/* ----- Add Tarefa -----*/
 
+
+.boxAddTarefa {
+    margin:10%;
+    text-align: center;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
