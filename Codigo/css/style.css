@@ -191,4 +191,42 @@ td {
 .box1, .box2, .box3, .box4, .box5, .box6 {
     margin-top: 2%;
     margin-bottom: 5%;
+<<<<<<< HEAD
 }
+=======
+}
+
+/* ----- Duvidas ----- */
+
+.boxDuvidas {
+    margin: 10%;
+}
+
+.nome, .duvida {
+    text-align: center;
+    padding: 5%;
+    border: 1rem black;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+.duvida {
+    text-align: justify;
+    border-width: .31rem;
+    border-style: dashed;
+    border-color: rgb(35, 31, 55);
+}
+
+.resposta{
+    margin-top: 5%;
+    margin-right: 55%;
+    margin-bottom: 7%;
+    padding: 2%;
+    border-width: .15rem;
+    border-style: solid;
+    border-color: rgb(29, 26, 22);
+}
+
+>>>>>>> 9ed87a9ef1bd23c58f7bdab5229b645b442035fe
