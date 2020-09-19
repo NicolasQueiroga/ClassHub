@@ -180,10 +180,10 @@ td {
     position: relative;
 }
 
-/* ----- Add Tarefa - Add Aviso -----*/
+/* ----- Add Tarefa - Add Aviso - Sua duvida -----*/
 
 
-.boxAddTarefa, .boxAddAviso {
+.boxAddTarefa, .boxAddAviso, .boxEscrevaDuvida {
     margin:10%;
     text-align: center;
 }
