@@ -81,9 +81,11 @@ td {
 }
 
 .tasks {
+    margin-left: 5rem;
     border-left-width: 3px;
     padding: 8px 12px;
-    margin: 10px;
+    margin-left: 10%;
+    margin-top: 5%;
     border-left-style: solid;
     font-size: 14px;
     position: relative;
@@ -117,4 +119,45 @@ button{
     padding-left: 1.3%;
 }
 
+/* ---------- Descricao ----------- */
+.boxDescricao {
+    margin: 2%;
+}
 
+.title, .subtitle {
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+}
+
+.dia {
+
+    padding: 1% 0 2% 0;
+    text-align: center;
+}
+
+.describe {
+    text-align: center;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 2%;
+    border: 40px;
+    border-color: black;
+}
+
+.text {
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.arquivos {
+    margin-left: 5rem;
+    border-left-width: 3px;
+    padding: 8px 12px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-left-style: solid;
+    font-size: 14px;
+    position: relative;
+}
