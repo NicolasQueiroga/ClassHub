@@ -192,3 +192,37 @@ td {
     margin-top: 2%;
     margin-bottom: 5%;
 }
+
+/* ----- Duvidas ----- */
+
+.boxDuvidas {
+    margin: 10%;
+}
+
+.nome, .duvida {
+    text-align: center;
+    padding: 5%;
+    border: 1rem black;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+.duvida {
+    text-align: justify;
+    border-width: .31rem;
+    border-style: dashed;
+    border-color: rgb(35, 31, 55);
+}
+
+.resposta{
+    margin-top: 5%;
+    margin-right: 55%;
+    margin-bottom: 7%;
+    padding: 2%;
+    border-width: .15rem;
+    border-style: solid;
+    border-color: rgb(29, 26, 22);
+}
+
