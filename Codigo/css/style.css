@@ -180,10 +180,10 @@ td {
     position: relative;
 }
 
-/* ----- Add Tarefa -----*/
+/* ----- Add Tarefa - Add Aviso -----*/
 
 
-.boxAddTarefa {
+.boxAddTarefa, .boxAddAviso {
     margin:10%;
     text-align: center;
 }
