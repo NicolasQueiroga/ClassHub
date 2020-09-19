@@ -14,10 +14,14 @@
             <header class='title'>Calendário</header>
         </header>
         <main>
-            <h2>Setembro</h2>
+            <h2 class='mes'>
+            Setembro
+            <button>▾</button>
+            </h2>
             <div = class='tabela'>
                 <table>
-                <tr class='week'>
+                <div class='week'>
+                <tr>
                     <th>Segunda</th>
                     <th>Terça</th> 
                     <th>Quarta</th>
@@ -26,10 +30,11 @@
                     <th>Sábado</th>
                     <th>Domingo</th>
                 </tr>
-                <tr class='days'>
-                    <span class='avisos'><td>1 -Leitura Prévia</td></span>
+                </div>
+                <tr>
+                    <td>1<p class='avisos'>Leitura Prévia</p></td>
                     <td>2</td>
-                    <span class='avisos'><td>3 -Projeto 1</td></span>
+                    <td>3<p class='avisos'>Projeto 1</p></td>
                     <td>4</td>
                     <td>5</td>
                     <td>6</td>
@@ -37,7 +42,7 @@
                 </tr>
                 <tr>
                     <td>8</td>
-                    <span class='avisos'><td>9 -APS 11</td></span>
+                    <td>9<p class='avisos'>APS 1</p></td>
                     <td>10</td>
                     <td>11</td>
                     <td>12</td>
@@ -72,23 +77,23 @@
                 </div>
             <br>
             <br>
-            <ul>
-                <li>
+            </main>
+            <footer>
+            <ul class='tasks'>
+                <li class='a'>
                     <h4>Projeto 1, Entrega</h4>
-                    <p><a href="Descricao.html">Descrição</a></p>
+                    <p><button><a href="Descricao.html">Descrição</a></button></p>
                 </li>
-                <li>
+                <li class='b'>
                     <h4>APS 1, Entrega</h4>
-                    <p>Descrição</p>
+                    <p><button>Descrição</button></p>
                 </li>
-                <li>
+                <li class='c'>
                     <h4>Leitura Prévia</h4>
-                    <p>Descrição</p>
+                    <p><button>Descrição</button></p>
                 </li>
             </ul>
-        </main>
-        <footer>
-            <a href="AddTarefa.html"><button><h3>Adicionar Tarefa</h3></button>
+            <spam class='add'><a href="AddTarefa.html"><button><h3>Adicionar Tarefa</h3></button></spam>
         </footer>
     </body>
 </html>
