@@ -1,7 +1,9 @@
 html, body {
-    height: 100%;
     width: 100%;
-    font-family: Montserrat, "sans-serif";
+    height: 100%;
+    font-family: "Lucida Console", Courier, monospace;
+    position: fixed;
+    overflow:auto;
 }
 
 /* --------- Header ------------ */
@@ -19,7 +21,6 @@ header{
 
 
 .title{
-    font-family: "Lucida Console", Courier, monospace;
     border: none;
     margin-left: 10%;
     padding: .01rem;
@@ -27,16 +28,26 @@ header{
     font-weight:bold;
 }
 
+
+/* --------- hyperlinks ------------ */
+a{
+    color: black;
+    text-emphasis: none;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
 /* --------- Listas ------------ */
 ul{
     display: flex;
     flex-direction: column;
+    margin:.5rem;
     height:100%;
-    padding: 0.5%;
 }
 
 li{
-    padding: 0.5%;
+    width: 100%;
 }
 
 /* --------- Calendario ------------ */
@@ -94,11 +105,10 @@ td {
     border-radius: 0.2rem;
     border: none;
     height: 1.5rem;
-    padding: 5px;
+    padding: 0.3rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     border: none;
     margin: .01rem;
 }
@@ -114,7 +124,9 @@ td {
 }
 
 .escolhas{
-    height: 100%;
+    margin:0.3rem;
+    font-size: 1.5rem;
+    width: 98%;
 }
 
 .rodape {
