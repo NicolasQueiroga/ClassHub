@@ -179,19 +179,6 @@ td {
     position: relative;
 }
 
-/* ----- Add Tarefa - Add Aviso - Sua duvida -----*/
-
-
-.boxAddTarefa, .boxAddAviso, .boxEscrevaDuvida {
-    margin:10%;
-    text-align: center;
-}
-
-.box1, .box2, .box3, .box4, .box5, .box6 {
-    margin-top: 2%;
-    margin-bottom: 5%;
-}
-
 /* ----- Duvidas ----- */
 
 .boxDuvidas {
@@ -223,5 +210,18 @@ td {
     border-width: .15rem;
     border-style: solid;
     border-color: rgb(29, 26, 22);
+}
+
+/* ----- Add Tarefa - Add Aviso - Sua duvida -----*/
+
+
+.boxAddTarefa, .boxAddAviso, .boxEscrevaDuvida {
+    margin:10%;
+    text-align: center;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
