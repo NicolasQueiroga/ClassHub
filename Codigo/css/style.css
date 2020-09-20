@@ -3,10 +3,8 @@ html, body {
     height: 100%;
     font-family: "Lucida Console", Courier, monospace;
     position: fixed;
-    overflow:auto;
+    overflow: auto;
 }
-
-
 
 /* ============ Header ============ */
 header{
@@ -29,7 +27,7 @@ header{
     margin-left: 10%;
     padding: .01rem;
     font-size: 3rem;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .title2, .subtitle {
@@ -61,15 +59,14 @@ header{
 
 
 /* ============ texto ============ */
-pbold{
-    font-weight: bold;
-}
 
 .right{
     text-align: right;
 }
 
-
+.bold {
+    font-weight: bold;
+}
 
 /* ============ hyperlinks ============ */
 a{
@@ -86,8 +83,8 @@ a{
 ul{
     display: flex;
     flex-direction: column;
-    margin:.5rem;
-    height:100%;
+    margin: .5rem;
+    height :100%;
 }
 
 li{
@@ -146,13 +143,11 @@ li{
 
 .menuAdicionar{
     color: gray;
-    background-color: none;
     text-decoration: underline;
 }
 
 .buttonDescricao{
     color: gray;
-    background-color: none;
     text-decoration: underline;
 }
 
@@ -245,8 +240,6 @@ td {
     border-color: gray;
     position: relative;
 }
-
-
 
 /* ============ Add Tarefa - Add Aviso - Sua duvida ============ */
 
