@@ -61,7 +61,7 @@ header{
 /* ============ texto ============ */
 
 .right{
-    text-align: right;
+    text-align: end;
 }
 
 .bold {
@@ -122,7 +122,7 @@ li{
     text-decoration: none;
     display: inline-block;
     border: none;
-    margin: .01rem;
+    margin: .2rem;
 }
 
 .textbutton{
@@ -138,7 +138,8 @@ li{
 }
 
 .adicionar{
-    margin-left: 75%;
+    margin: 0 10% 0 75%;
+    padding: 2%;
 }
 
 .menuAdicionar{
@@ -153,6 +154,7 @@ li{
 
 
 /* ============ Calendario ============ */
+
 table {
     border-collapse: collapse;
     border-spacing: 0 15px;
@@ -228,7 +230,7 @@ td {
 /* ============ Avisos ============ */
 
 .boxAvisos {
-    margin: 2%;
+    margin: 2% 10% 0 0;
 }
 
 .aviso1, .aviso2, .aviso3 {
@@ -239,6 +241,10 @@ td {
     border-left-style: solid;
     border-color: gray;
     position: relative;
+}
+
+.data {
+    text-align: end;
 }
 
 /* ============ Add Tarefa - Add Aviso - Sua duvida ============ */
