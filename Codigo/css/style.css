@@ -299,8 +299,10 @@ td {
 /* ============ Add Tarefa - Add Aviso - Sua duvida ============ */
 
 
-.boxAddTarefa, .boxAddAviso, .boxEscrevaDuvida {
-    margin:10%;
+.boxAddTarefa, .boxAddAviso, .boxEscrevaDuvida .boxRespostas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     text-align: center;
 }
 
