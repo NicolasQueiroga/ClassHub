@@ -299,7 +299,7 @@ td {
 /* ============ Add Tarefa - Add Aviso - Sua duvida ============ */
 
 
-.boxAddTarefa, .boxAddAviso, .boxEscrevaDuvida .boxRespostas {
+.boxAddTarefa, .boxAddAviso, .boxEscrevaDuvida, .boxRespostas {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -370,6 +370,7 @@ td {
 /* ============ Footer ============ */
 footer{
     text-align: right;
+    margin-right: 2rem;
 }
 
 .colaboradores{
