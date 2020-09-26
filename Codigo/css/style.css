@@ -214,6 +214,7 @@ td {
 
 .tasks {
     margin-left: 5%;
+    margin-top: 2rem;
     border-color: #b7b7b7;
     border-left-width: .2rem;
     padding: .5rem .8rem;
@@ -227,6 +228,32 @@ td {
 }
 
 
+.task1 {
+    background-color: #e06666;
+    border-radius: 0.2rem;
+}
+
+.cor1 {
+    padding: .5rem 0 .5rem 2%;
+}
+
+.task2 {
+    background-color: #ffd966;
+    border-radius: 0.2rem;
+}
+
+.cor2 {
+    padding: .5rem 0 .5rem 2%;
+}
+
+.task3 {
+    background-color: #93c47d;
+    border-radius: 0.2rem;
+}
+
+.cor3 {
+    padding: .5rem 0 .5rem 2%;
+}
 
 /* ============ Descrição ============ */
 .boxDescricao {
