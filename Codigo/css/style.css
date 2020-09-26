@@ -3,15 +3,18 @@ html, body {
     height: 100%;
     position: fixed;
     overflow: auto;
-    font-family: "Miriam Libre";
+    font-family: 'Roboto', sans-serif;
 }
 
 /* ============ Header ============ */
 header{
+    background-color: #2047cf;
     display: flex;
     flex-direction: row;
-    margin: .5rem;
-    border-bottom: .12rem solid gray;
+    justify-content: flex-start;
+    border: none;
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
 }
 .menu{
     border: none;
@@ -24,11 +27,10 @@ header{
 /* ============ Títulos ============ */
 .title{
     border: none;
-    margin-left: 10%;
     padding: .01rem;
+    color: white;
     font-size: 3rem;
     font-weight: bold;
-    font-family: "Lucida Console", Courier, monospace;
 }
 
 .title2, .subtitle {
@@ -36,7 +38,6 @@ header{
     padding: 2%;
     text-align: center;
     font-weight: bold;
-    font-family: "Lucida Console", Courier, monospace;
 }
 .title2{
     font-size: 2rem;
@@ -70,6 +71,10 @@ header{
     font-weight: bold;
 }
 
+.longText{
+    font-family: 'PT Serif', serif;
+}
+
 /* ============ hyperlinks ============ */
 a{
     color: black;
@@ -97,7 +102,7 @@ li{
 .listaBorda {
     margin-left: 5%;
     border-left-width: 0.12rem;
-    border-color: gray;
+    border-color: #b7b7b7;
     padding: 8px 12px;
     margin-top: 5%;
     border-left-style: solid;
@@ -106,7 +111,7 @@ li{
 }
 
 .arquivos{
-    color: rgb(35, 31, 55);
+    color: #b7b7b7;
     text-decoration: underline;
     
 }
@@ -114,8 +119,21 @@ li{
 
 
 /* ============ Botões ============ */
+.imgMenu{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.imgVoltar{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+
+
+/* ============ Botões ============ */
 .button{
-    background-color: silver;
+    background-color: #b7b7b7;
     border-radius: 0.2rem;
     border: none;
     height: 1.5rem;
@@ -125,6 +143,10 @@ li{
     display: inline-block;
     border: none;
     margin: .2rem;
+}
+
+.voltar{
+    background: none;
 }
 
 .textbutton{
@@ -145,12 +167,12 @@ li{
 }
 
 .menuAdicionar{
-    color: gray;
+    color: #b7b7b7;
     text-decoration: underline;
 }
 
 .buttonDescricao{
-    color: gray;
+    color: #b7b7b7;
     text-decoration: underline;
 }
 
@@ -164,7 +186,7 @@ table {
   }
   
 th {
-    color: rgba(55, 43, 55, 0.604);
+    color: #b7b7b7;
     height: 10px;
     padding: 1%;
 }
@@ -173,8 +195,7 @@ td {
     width: 150rem;
     height: 4rem;
     text-align: center;
-    border: 1px solid rgba(128, 128, 128, 0.597);
-    color: rgba(56, 46, 56, 0.885);
+    border: 1px solid #b7b7b7;
     font-weight: bold;
     padding: 5px;
 }
@@ -193,7 +214,7 @@ td {
 
 .tasks {
     margin-left: 5%;
-    border-color: gray;
+    border-color: #b7b7b7;
     border-left-width: .2rem;
     padding: .5rem .8rem;
     margin-top: 5%;
@@ -240,7 +261,7 @@ td {
     padding: .5rem .8rem;
     margin-top: 5%;
     border-left-style: solid;
-    border-color: gray;
+    border-color: #b7b7b7;
     position: relative;
 }
 
@@ -280,7 +301,7 @@ td {
     text-align: justify;
     border-width: .15rem;
     border-style: solid;
-    border-color: lightgray;
+    border-color: #b7b7b7;
 }
 
 .writeResposta{
@@ -288,7 +309,7 @@ td {
 }
 
 .acoes{
-    color: lightslategrey;
+    color: #b7b7b7;
     text-decoration: underline;
 }
 
@@ -301,12 +322,12 @@ td {
     padding: 5%;
     border-left-width: .15rem;
     border-style: solid;
-    border-color: gray;
+    border-color: #b7b7b7;
     margin-bottom: 2rem;
 }
 
 .like{
-    color: lightslategrey;
+    color: #b7b7b7;
     text-decoration: underline;
 }
 
@@ -323,13 +344,13 @@ footer{
 }
 
 .colaboradores{
-    color: lightslategrey;
+    color: #b7b7b7;
     text-decoration: underline;
 }
 
 .addHub{
     width: fit-content;
-    background-color: silver;
+    background-color: #b7b7b7;
     border-radius: 2rem;
     border: none;
     text-align: center;
